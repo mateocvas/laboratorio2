@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/ventana_redonda"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="wrap_content">
+
+    <Button
+            android:text="@string/bt_cancelar"
+            style="@style/Boton_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vencon_bt_cancelar" android:layout_marginTop="44dp"
+            app:layout_constraintTop_toBottomOf="@+id/vencon_tv_mensaje" android:layout_marginStart="24dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="24dp"
+            android:layout_marginBottom="16dp" app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+            android:text="Aceptar"
+            style="@style/Boton_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vencon_bt_aceptar" android:layout_marginTop="44dp"
+            app:layout_constraintTop_toBottomOf="@+id/vencon_tv_mensaje" android:layout_marginEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="24dp"/>
+    <TextView
+            android:text="¿Esta usted seguro de que desea salir?"
+            style="@style/Text_subtitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vencon_tv_mensaje" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp"/>
+</android.support.constraint.ConstraintLayout>

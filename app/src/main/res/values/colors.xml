@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#242045</color>
+    <color name="colorPrimaryDark">#242045</color>
+    <color name="colorAccent">#242045</color>
+    <color name="morado">#242045</color>
+    <color name="morado_dark">#1E1C27</color>
+    <color name="blanco">#FFFFF9</color>
+    <color name="morado_dark2">#A3445D</color>
+    <color name="boton_dark">#FF3163</color>
+</resources>

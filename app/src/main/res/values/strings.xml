@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ptractica2</string>
+    <string name="tv_registro">¿No tienes una cuenta aun? Registrate</string>
+    <string name="bt_facebook">Ingrear con Facebook</string>
+    <string name="bt_gmail">Ingresar con gmail</string>
+    <string name="bt_ingresar">Ingresar</string>
+    <string name="facebook">Facebook</string>
+    <string name="gmail">Gmail</string>
+    <string name="error_campos_incompletos">"Lo sentimos, debes completaar toda la informacion."</string>
+    <string name="error_contrasenas_diferente">Las contraseñas ingresadas no coinciden.</string>
+    <string name="error_correo_registrado">El correo ingresado ya se encuentra registrado.</string>
+    <string name="registrar">Registrar</string>
+    <string name="hint_nombre">Nombre…</string>
+    <string name="hint_correo">Correo…</string>
+    <string name="hint_contrasena1">Contraseña…</string>
+    <string name="hint_contrasena2">Repite la contraseña…</string>
+    <string name="titulo_registro">Registro</string>
+    <string name="bt_cancelar">Cancelar</string>
+    <string name="exito_registro">El registro ha sido exitoso</string>
+    <string name="error_contrasena_correo">El correo o la contraseña no coiinciden.</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+
+
+</resources>
+
